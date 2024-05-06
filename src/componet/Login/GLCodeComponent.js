@@ -54,7 +54,6 @@ const GLCodeComponent = () => {
     setNextItemNumber(prevItemNumber => prevItemNumber + 1);
   };
   
-Dnyanada
 
 
 
