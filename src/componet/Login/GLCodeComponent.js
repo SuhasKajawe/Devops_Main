@@ -396,7 +396,7 @@ const editButtonRef = useRef(null); // Ref for the edit button
        
         <div className="col">
         <div className="row justify-content-between ">
-          <h5><span style={{ marginRight: '40px' }}>Account header</span><button className="btn btn-primary" onClick={handleAddButtonClick1}>Add</button>             <button className="btn btn-info mb-2" onClick={() => handleEditButtonClick(null)}>
+          <h5><span style={{ marginRight: '40px' }}>Account</span><button className="btn btn-primary" onClick={handleAddButtonClick1}>Add</button>             <button className="btn btn-info mb-2" onClick={() => handleEditButtonClick(null)}>
         {editMode ? 'Cancel' : 'Edit'}
       </button></h5>
          
